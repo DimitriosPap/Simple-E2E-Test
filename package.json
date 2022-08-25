@@ -1,0 +1,17 @@
+{
+  "name": "wikipedia-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/ -f json:reports/cucumber_report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.2",
+    "cucumber-html-reporter": "^5.5.0",
+    "puppeteer": "^16.2.0"
+  }
+}
