@@ -9,7 +9,7 @@ Install Node.js
       sudo apt install nodejs
 
 Useful extensions to use in VsCode:
-•	Node.js extension pack (packages included are: ESLint, npm, JavaScript (ES6) snippets, search node_modules, NPM Intellisense, Path Intellisense)
-•	VS Code for Node.js – Development Pack https://github.com/nodesource/vs-code-for-node-js-development-pack
+•	Node.js extension pack
+•	VS Code for Node.js – Development Pack
 •	Cucumber Full Support
 •	Cuke Step Definition generator
