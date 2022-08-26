@@ -49,7 +49,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1752711646
+              "duration": 2407557700
             }
           },
           {
@@ -62,7 +62,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1409170727
+              "duration": 1484600620
             }
           },
           {
@@ -75,7 +75,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1544162927
+              "duration": 1559835442
             }
           },
           {
@@ -96,8 +96,8 @@
                   },
                   {
                     "cells": [
-                      "PptrUser",
-                      "43218765"
+                      "xxxxxxxx",
+                      "xxxxxxxx"
                     ]
                   }
                 ]
@@ -110,8 +110,9 @@
               "location": "features/steps/browse.steps.js:47"
             },
             "result": {
-              "status": "passed",
-              "duration": 7843938633
+              "status": "failed",
+              "duration": 5217269454,
+              "error_message": "ProtocolError: Protocol error (Input.dispatchKeyEvent): Target closed.\n    at /home/zen/E2E Testing/Wikipedia Testing/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:298:24\n    at new Promise (<anonymous>)\n    at CDPSession.send (/home/zen/E2E Testing/Wikipedia Testing/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:294:16)\n    at Keyboard.down (/home/zen/E2E Testing/Wikipedia Testing/node_modules/puppeteer/lib/cjs/puppeteer/common/Input.js:119:67)\n    at Keyboard.press (/home/zen/E2E Testing/Wikipedia Testing/node_modules/puppeteer/lib/cjs/puppeteer/common/Input.js:235:20)\n    at Keyboard.type (/home/zen/E2E Testing/Wikipedia Testing/node_modules/puppeteer/lib/cjs/puppeteer/common/Input.js:201:28)\n    at async ElementHandle.type (/home/zen/E2E Testing/Wikipedia Testing/node_modules/puppeteer/lib/cjs/puppeteer/common/ElementHandle.js:629:9)\n    at async IsolatedWorld.type (/home/zen/E2E Testing/Wikipedia Testing/node_modules/puppeteer/lib/cjs/puppeteer/common/IsolatedWorld.js:440:9)\n    at async World.<anonymous> (/home/zen/E2E Testing/Wikipedia Testing/features/steps/browse.steps.js:54:3)"
             }
           },
           {
@@ -123,8 +124,8 @@
               "location": "features/steps/browse.steps.js:60"
             },
             "result": {
-              "status": "passed",
-              "duration": 4487264405
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
@@ -147,8 +148,9 @@
               "location": "features/steps/browse.steps.js:79"
             },
             "result": {
-              "status": "passed",
-              "duration": 1221378818
+              "status": "failed",
+              "duration": 416242,
+              "error_message": "Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.\n    at CDPSession.send (/home/zen/E2E Testing/Wikipedia Testing/node_modules/puppeteer/lib/cjs/puppeteer/common/Connection.js:285:35)\n    at ExecutionContext._ExecutionContext_evaluate (/home/zen/E2E Testing/Wikipedia Testing/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:253:46)\n    at ExecutionContext.evaluateHandle (/home/zen/E2E Testing/Wikipedia Testing/node_modules/puppeteer/lib/cjs/puppeteer/common/ExecutionContext.js:170:107)\n    at WaitTask.rerun (/home/zen/E2E Testing/Wikipedia Testing/node_modules/puppeteer/lib/cjs/puppeteer/common/IsolatedWorld.js:637:37)"
             }
           },
           {
@@ -160,8 +162,8 @@
               "location": "features/steps/browse.steps.js:88"
             },
             "result": {
-              "status": "passed",
-              "duration": 1563826144
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -173,8 +175,8 @@
               "location": "features/steps/browse.steps.js:95"
             },
             "result": {
-              "status": "passed",
-              "duration": 1912817729
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -186,8 +188,8 @@
               "location": "features/steps/browse.steps.js:101"
             },
             "result": {
-              "status": "passed",
-              "duration": 38672114
+              "status": "skipped",
+              "duration": 0
             }
           }
         ],
