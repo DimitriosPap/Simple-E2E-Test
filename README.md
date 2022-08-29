@@ -1,7 +1,7 @@
 # Simple-E2E-Test
 ## Make a simple cucumber/puppeteer project that also creates reports locally. It runs in a Node.js environment and uses Jest for testing.
 
-#####Description:
+##### Description:
 &ensp;In /features/browse.feature we write in Gherkin language the features we want to test dividing them in scenarios and steps.\
 &ensp;Cucumber will connect those steps with the actual code when we execute the test suite.\
 &ensp;In /features/steps/browse.steps.js we write for each step the acctual code in Javascript.\
