@@ -18,5 +18,5 @@ Feature: Log in/out to Wikipedia
     Scenario: I want to log out from Wikipedia
         Given I am loged in to Wikipedia
         And I click the log out button
-        Then I wamt to be in the log out landing page
+        Then I want to be in the log out landing page
         And I want to close the browser window

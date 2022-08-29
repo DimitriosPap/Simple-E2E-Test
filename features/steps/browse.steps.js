@@ -92,7 +92,7 @@ Given("I click the log out button", async () => {
   await button.click();
 });
 
-Then("I wamt to be in the log out landing page", async () => {
+Then("I want to be in the log out landing page", async () => {
   await page.waitForSelector("#firstHeading");
   const eval_page = await page.$eval("#firstHeading", (e) => e.innerHTML);
   expect(eval_page).toContain("Log out");
